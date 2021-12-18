@@ -9,7 +9,17 @@ I edited from jojoe77777 for it to support pocketmine 4.0.x <br />
 It is Free To use!<br />
 มันใช้งานฟรี!
 
-image preview
+code to call FormAPI Fix to Pocketmine 4.0.0 <br />
+change form FormAPI
+'''
+$formapi = $this->plugin->getServer()->getPluginManager()->getPlugin("FormAPI");
+'''
+to
+'''
+$formapi = $this->plugin->getServer()->getPluginManager()->getPlugin("FormAPIFix");
+'''
+image preview<br />
+ภาพตัวอย่าง
 ![Google ](https://i.imgur.com/2zMvLud.png)
 
 ![Googlez ](https://i.imgur.com/3uxEYHF.png)
