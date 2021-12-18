@@ -16,8 +16,8 @@ change form FormAPI<br />
 ```
 $formapi = $this->plugin->getServer()->getPluginManager()->getPlugin("FormAPI");
 ```
-to<br />
-เป็น
+to FormAPIFix<br />
+เป็น FormAPIFix
 ```
 $formapi = $this->plugin->getServer()->getPluginManager()->getPlugin("FormAPIFix");
 ```
