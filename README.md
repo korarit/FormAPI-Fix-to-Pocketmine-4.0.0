@@ -10,11 +10,14 @@ It is Free To use!<br />
 มันใช้งานฟรี!
 
 code to call FormAPI Fix to Pocketmine 4.0.0 <br />
-change form FormAPI
+โค้ดเรียก FormAPI Fix To Pocketmine 4.0.0<br />
+change form FormAPI<br />
+เปลื่ยนจาก FormAPI
 ```
 $formapi = $this->plugin->getServer()->getPluginManager()->getPlugin("FormAPI");
 ```
-to
+to<br />
+เป็น
 ```
 $formapi = $this->plugin->getServer()->getPluginManager()->getPlugin("FormAPIFix");
 ```
